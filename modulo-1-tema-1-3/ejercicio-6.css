@@ -1,0 +1,14 @@
+.container--1 {
+  overflow: hidden;
+}
+body {
+  background-color: lightpink;
+}
+.container--2 {
+  overflow-y: scroll;
+}
+.col {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
