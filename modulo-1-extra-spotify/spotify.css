@@ -1,6 +1,7 @@
 .menu {
   list-style-type: none;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
 }
 .pruebaPremium {
   background-image: url(https://image.freepik.com/foto-gratis/chica-bailando-hip-hop-ropa-elegante-sobre-fondo-degradado-salon-baile-luz-neon_155003-9249.jpg);
