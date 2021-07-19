@@ -9,4 +9,5 @@
 }
 .descargaMusica {
   list-style-type: none;
+  justify-content: right;
 }
