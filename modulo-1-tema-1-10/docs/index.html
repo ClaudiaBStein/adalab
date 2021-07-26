@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main class="container">
+      <form action="#" method="POST">
+        <label for="name"
+          >Nombre
+          <input
+            class="nombre"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Ej: Claudia"
+            value="Claudia"
+            disabled
+        /></label>
+        <label
+          >Apellido
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Ej: Claudia"
+        /></label>
+        <label>
+          Email
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ej: usuario@adalab.com"
+            required
+          />
+        </label>
+        <label>
+          Contraseña
+          <input
+          pattern="[A-Za-z](3)"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Ej:1234"
+          />
+        </label>
+
+        <label>
+          Edad
+          <input type="number" name="age" id="age" placeholder="Ej: 34" />
+          <label>
+          <select name="Edad" id="age">
+            <option selected disabled>Escoge una opción</option>
+            <option value="1">1-10</option>
+            <option value="2">11-20</option>
+          </select>
+        </label>
+        </label>
+        <label>
+          Teléfono
+          <input type="tel" name="tel" id="tel" placeholder="Ej: 555-2548" />
+        </label>
+        <fieldset>
+          Color Preferido:
+          <label>
+            <input type="checkbox" name="color" value="red" />
+            Rojo </label
+          ><label>
+            <input type="checkbox" name="color" value="blue" />
+            Blue
+          </label>
+          <label>
+            <input type="checkbox" name="color" value="green" />
+            Green
+          </label>
+        </fieldset>
+        <label>
+          Sexo
+            <input type="radio" name="sex" value="woman" />
+            Mujer </label
+          ><label>
+            <input type="radio" name="sex" value="man" />
+            Hombre
+          </label>
+        </fieldset>
+        <input type="date" name="birthday"/>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Restablecer"/>
+      </form>
+    </main>
+  </body>
+</html>
